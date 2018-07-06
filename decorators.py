@@ -7,10 +7,10 @@ def my_decorator(func):
     print('after!')
   return function_wrapper
 
-@my_decorator
+#@my_decorator
 def foo(x):
   print('what happend?', x)
 
-# foo = my_decorator(foo)
+foo = my_decorator(foo)
 
 foo('now')
