@@ -10,7 +10,7 @@ class PrimesTestCase(unittest.TestCase):
 
     def test_is_four_non_prime(self):
         """Is four correctly determined not to be prime?"""
-        self.assertFalse(is_prime(4), msg='Four is not prime!')
+        self.assertTrue(is_prime(4), msg='Four is not prime!')
     
     def test_is_zero_not_prime(self):
       """Is zero correctly determined not to be prime?"""
