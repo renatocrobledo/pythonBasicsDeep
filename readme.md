@@ -11,3 +11,8 @@ https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-tes
 
 X - workFlow:
 https://www.hashlabs.com/guides/en/methodology/X-Workflow.html
+
+
+Tutorial Django APP:
+
+https://www.youtube.com/watch?v=EopHx8WtbvA 
