@@ -3,7 +3,7 @@
     <h2> {{ entry.title }}</h2>
     <h4> {{ entry.date }} </h4>
     <p>
-      {{ entry.content }}
+      {{ entry.content|truncatechars:100 }}
     </p>
-    <button class="btn btn-primary">view more details</button>
+    <button onClick="window.location='{% url 'details' pk=entry.id %}'" class="btn btn-primary">view more details</button>
 </div>
