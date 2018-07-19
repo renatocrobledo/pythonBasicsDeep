@@ -17,8 +17,12 @@ def add(request):
 
         if form.is_valid():
 
-           ##implement insertion 
-          title = form.cleaned_data['name']
+          ##implement insertion 
+          title = form.cleaned_data['title']
+          date = form.cleaned_data['date']
+          content = form.cleaned_data['content']
+
+          Entry(title=title, date=date, content=content).save()
 
           return HttpResponseRedirect('/')
 
